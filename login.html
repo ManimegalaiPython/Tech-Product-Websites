@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        margin:0;
+        padding:0;
+        background:#DC9AF2;
+        font-family:'Inter', sans-serif;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+    }
+
+    .container{
+        width:330px;
+        background:white;
+        padding:30px;
+        border-radius:15px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.2);
+        margin-left: 40px;
+    }
+
+    h2{
+        text-align:center;
+        margin-bottom:20px;
+        font-family:'Inika', serif;
+        color:#DC9AF2;
+    }
+
+    label{
+        font-size:14px;
+        font-weight:600;
+        color:#333;
+    }
+
+    input{
+        width:100%;
+        padding:10px;
+        margin:8px 0 15px;
+        border:2px solid #DC9AF2;
+        border-radius:8px;
+        outline:none;
+    }
+
+    input:focus{
+        border-color:#DCFF16;
+        box-shadow:0 0 5px #DCFF16;
+    }
+
+    .btn{
+        width:100%;
+        padding:12px;
+        background:#13B82E;
+        color:white;
+        border:none;
+        border-radius:8px;
+        font-size:16px;
+        cursor:pointer;
+        font-weight:600;
+    }
+
+    .btn:hover{
+        background:#0f9c28;
+    }
+
+    .register-link{
+        text-align:center;
+        margin-top:10px;
+        font-size:14px;
+    }
+
+    .register-link a{
+        color:#DC9AF2;
+        text-decoration:none;
+        font-weight:600;
+    }
+</style>
+
+</head>
+<body>
+     <img src="Images/logo.png" alt="logo">
+    <h1> Tech Company</h1>
+
+<div class="container">
+    <h2>Login</h2>
+
+    <!-- Add onsubmit here -->
+    <form onsubmit="goHome(event)">
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Password</label>
+        <input type="password" required>
+
+        <button class="btn">Login</button>
+    </form>
+
+    <div class="register-link">
+        Don't have an account? <a href="register.html">Register</a>
+    </div>
+</div>
+
+<!-- Redirect Script -->
+<script>
+function goHome(event){
+    event.preventDefault();       // Prevent form from reloading page
+    window.location.href = "home.html";  // Redirect to home page
+}
+</script>
+
+</body>
+</html>
