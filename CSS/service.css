@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+    body{
+        margin:0;
+        padding:0;
+        font-family: 'Inika', serif;
+        text-align: center;
+    }
+    /* NAVBAR */
+.navbar{
+    background:#DC9AF2;
+    padding:20px 40px 15px;
+}
+
+/* ---------- ROW 1 ---------- */
+.top-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+/* LOGO */
+.logo img{
+    width:90px;
+}
+
+/* SEARCH */
+.search-box{
+    position:relative;
+    width:520px;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px 1px 14px 18px;
+    border-radius:14px;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+.search-box i{
+    position:absolute;
+    right:18px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:18px;
+    margin-left:90px ;
+}
+
+/* RIGHT ICONS */
+.right-icons{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.right-icons i{
+    font-size:22px;
+    cursor:pointer;
+}
+
+/* REGISTER */
+.register-btn{
+    background:#13B82E;
+    padding:10px 26px;
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+    border-radius:6px;
+    font-family:'Inika', serif;
+}
+
+/* ---------- ROW 2 ---------- */
+.bottom-row{
+    margin-top:18px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+/* COMPANY NAME */
+.company-name{
+    font-size:28px;
+    font-family:'Inika', serif;
+    font-weight:bold;
+}
+
+/* MENU */
+.menu{
+    display:flex;
+    gap:60px;
+    margin-right: 90px;
+}
+
+.menu a{
+    text-decoration:none;
+    font-size:22px;
+    font-family:'Inika', serif;
+    font-weight:bold;
+    color:black;
+}
+
+.logout-btn{
+        background:#13B82E;
+        padding:9px 23px;
+        color:Black;
+        text-decoration:none;
+        border-radius:4px;
+        font-size:16px;
+        font-weight:600;
+    }
+
+    .logout-btn:hover{
+        background:#0b791f;
+    }
+
+    .content{
+        padding:40px;
+        text-align:center;
+    }
+
+
+    /* Heading */
+    h1{
+        font-size: 90px;
+        margin-top: 30px;
+        font-weight: 700;
+    }
+
+    .sub-title{
+        font-size: 38px;
+        margin-top: 40px;
+        font-weight: 700;
+    }
+
+    /* Purple Card */
+    .card{
+        width: 60%;
+        margin: 90px auto;
+        background: #DCA6F5;
+        padding: 50px;
+        border-radius: 30px;
+        display: flex;
+        align-items: left;
+        gap: 10px;
+    }
+
+    .card img{
+        width: 260px;
+    }
+
+    .card-title{
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .card ul li{
+        text-align: left;
+        font-size: 25px;
+        line-height: 1.8;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+
+    
+    .price-card{
+        width: 60%;
+        margin: 50px auto;
+        background: #F8A647;
+        padding: 40px;
+        border-radius: 25px;
+        display: flex;
+        align-items: left;
+        gap: 40px;
+        box-shadow: 0 10px 18px rgba(0,0,0,0.2);
+    }
+
+    .price-card img{
+        width: 260px;
+        height: auto;
+    }
+
+    .title{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .text{
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: left;
+        margin: 0;
+    }
+
+
+
+    .update-card{
+        width: 60%;
+        margin: 50px auto;
+        background: #63ABA8;
+        padding: 40px;
+        border-radius: 25px;
+        display: flex;
+        align-items: left;
+        gap: 40px;
+        box-shadow: 0 10px 18px rgba(0,0,0,0.2);
+    }
+
+    /* Circle Image */
+    .img-circle{
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        background: white;
+    }
+
+    .img-circle img{
+        width: 100%;
+        height: auto;
+    }
+
+    .title{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .desc{
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: left;
+        color: white;
+    }
+
+    .desc li{
+        margin-bottom: 10px;
+    }
+
+
+
+    .support-card{
+        width: 60%;
+        margin: 50px auto;
+        background: #EBAFB0;   /* Soft Pink */
+        padding: 40px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        box-shadow: 0 10px 18px rgba(0,0,0,0.2);
+    }
+
+    /* Circle Image */
+    .img-circle{
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-circle img{
+        width: 100%;
+        height: auto;
+    }
+
+    .title{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .para{
+        font-size: 20px;
+        line-height: 1.7;
+        max-width: 800px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+
+
+.footer{
+    background: #E7FF63;
+    padding: 50px 80px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+    gap: 40px;
+    align-items: start;
+    margin-left: 0;
+    text-align: left;
+}
+
+
+/* Logo Section */
+.footer-logo img{
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.footer-logo h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Footer Headings */
+.footer h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+/* Footer Links */
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 12px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+/* Contact */
+.contact li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+margin-right: 40px;
+}
+
+/* Social Icons */
+.social{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.social i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.social-icons {
+    text-align: right;
+    margin-top: 0;
+}
+
+.social-icons i {
+    font-size: 28px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+
